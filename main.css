@@ -1,0 +1,528 @@
+/*-----登录界面--------*/
+
+.container {
+	padding-top: 2em;
+	margin: 0 auto;
+	overflow: hidden;
+	height: -5em;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	font-family: "微软雅黑";
+}
+.container_eva {
+	padding: 2em 0.5em 0 0.5em;
+}
+.input-group,
+.login_tip {
+	margin-bottom: 1em;
+}
+.login_btn:hover {
+	background-color: #4b5cc4;
+}
+.input-group-addon {
+	background-color: #BDC3E9;
+}
+.jumbotron {
+	font-family: "微软雅黑";
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#4b5cc4), to(#FFFFFF)) no-repeat;
+	background: -moz-linear-gradient(top, #4b5cc4, #FFFFFF) no-repeat;
+}
+.btn-default {
+	float: none;
+}
+.login_tip_left {
+	margin-right: 2em;
+}
+.login_tip_right {
+	margin-left: 2em;
+}
+.navbar .navbar-left{
+	padding: 0.2em;
+}
+
+/*评价页面*/
+
+.panel-primary {
+	margin-top: 2em;
+}
+
+.embed-responsive-16by9 {
+	height: 30em;
+}
+
+.pd_ifram {
+	padding: 0.25em 0.5em;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 100%;
+}
+
+.total_evabar {
+	padding: 5em 0;
+}
+
+.stars_box {
+	display: inline-block;
+	padding: 0 3em;
+}
+
+.stars {
+	width: 0.9em;
+	height: 0.9em;
+	background: url(../img/stars.gif) left center no-repeat;
+	overflow: hidden;
+	display: inline-block;
+	margin-right: 1px;
+	margin-right: 0.5em;
+}
+
+.eva_good_content {
+	padding: 2em 0;
+	font-family: "微软雅黑";
+}
+
+.eva_titl {
+	font-style: normal;
+	font-size: 0.8em;
+	color: #FF6A00;
+}
+
+.eva_good_con {
+	font-size: 0.8em;
+	display: block;
+}
+
+.good_eva {
+	background-color: #00bc12;
+}
+
+.bad_eva {
+	background-color: red;
+}
+
+.mid_eva {
+	background-color: #ffb61e;
+}
+
+.media-object {
+	width: 4em;
+	height: 4em;
+	border-radius: 2em;
+}
+
+.eva_good_time {
+	display: inline-block;
+	padding-top: 0.5em;
+	font-size: 0.5em;
+}
+
+.class_time {
+	font-size: 0.2em;
+	padding: 0 1em;
+}
+
+.media-middle {
+	vertical-align: top;
+}
+
+.list-group-item {
+	padding: 0.5em 0.3em; list-style: none;
+}
+
+.eva_reply {
+	padding: 0 1em;
+	border: none;
+	background-color: #FFFFFF;
+	color: dodgerblue;
+}
+
+.evaluate_link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.evaluate_link:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.evaluate_link:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.btn-default {
+	background-color: #CCCCCC;
+}
+
+.col-lg-6 {
+	padding: 0.5em 0;
+}
+
+
+/*注册页面*/
+
+.noborder {
+	border: none;
+}
+
+.nocenter {
+	text-align: start;
+}
+
+.reg_title {
+	text-indent: 10px;
+}
+
+.reg_tip {
+	color: #CCCCCC;
+}
+
+.reg_gender {
+	color: #8C8C8C;
+	padding-right: 2.5em;
+}
+
+.btn-block {
+	margin-top: 2em;
+
+}
+
+
+/*注册成功页面*/
+
+.reg_suc_img {
+	width: 6em;
+	height: 6em;
+	text-align: center;
+	margin-top: 3.5em;
+}
+
+.reg_suc_title {
+	padding-bottom: 2em;
+	font-family: "微软雅黑";
+}
+
+
+/*个人信息页面*/
+
+.list_title {
+	font-style: normal;
+	font-family: "微软雅黑";
+	padding-right: 2em;
+	color: #8C8C8C;
+}
+
+.info_icon,
+.info_icon:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.info_icon {
+	padding-left: 1em;
+}
+
+.change_pic {
+	width: 2em;
+	height: 2em;
+}
+
+.nopadding {
+	padding: 0;
+}
+.nomargin{
+	margin: 0;
+}
+
+/*我的订单页面*/
+
+.order_option {
+	font-weight: bold;
+}
+
+.orop_img {
+	width: 1.5em;
+	height: 1.5em;
+	margin-right: 1em;
+	margin-top: -0.1em;
+}
+
+.order_ph {
+	padding: 1em 2em;
+	line-height: 2.75em;
+}
+
+.order_link:hover,
+.order_link:active,
+.order_link:visited {
+	text-decoration: none;
+}
+
+.order_list {
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+}
+
+.order_list li {
+	border: none;
+}
+
+.order_pd {
+	padding: 0.2em;
+}
+
+.order_num {
+	display: inline-block;
+	padding-right: 3em;
+}
+
+.order_time {
+	font-style: normal;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	padding-right: 1em;
+}
+
+.order_school {
+	padding-right: 2em;
+}
+
+.item_operate {
+	padding-left: 2em;
+}
+
+.item_operate:hover {
+	text-decoration: none;
+}
+
+.font_color {
+	color: red;
+}
+
+.order_over_item {
+	display: inline-block;
+	padding-right: 1.2em;
+}
+
+
+/*课程评价页面*/
+.rev_pro li {
+	line-height: 2.5em;
+	height: 2.5em;
+}
+.level .level_solid,
+.level .level_hollow {
+	float: left;
+	background-image: url(../img/icon2.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+}
+
+.level .level_solid {
+	background-position: 0px 0px;
+}
+
+.level .level_hollow {
+	background-position: -21px 0px;
+}
+.revgrade {
+	margin-left: 4em;
+}
+.ceva_title{
+	padding-bottom: 0.5em;
+}
+.class_eva_item{
+	display: inline-block;
+	width: 30%;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.class_con_item{
+	display: inline-block;
+	width: 40%;
+}
+/*取消订单页面*/
+.oc_title{
+	font-weight: bold; color: red;
+}
+.oc_item{
+	padding: 0 1em;
+}
+.oc_item_name{
+	font-style: normal; padding-right: 5em;
+}
+.oc_reason{
+	border-radius: 4px;
+}
+/*资讯页面*/
+.container_dt{
+	padding: 1em 0.2em;
+}
+.dt_img{
+	border-radius: 0; width: 5em; height: 5em;
+}
+.tip_box{
+	border: 1px solid #CCCCCC; padding: 0.3em; border-radius: 4px;
+}
+.ds_item_time{
+	display: block; float: right;
+}
+.ds_title{
+	font-weight: bold;
+}
+/*教练信息页面*/
+.coainfo_img{
+	width: 6em; height: 6em; border-radius: 3em; display: block; margin: 0 auto;
+}
+.info_item{
+	padding: 0.3em 0; display: block; 
+}
+.info_name{
+	font-style: normal; float: left; padding-left: 30%;
+}
+.coach_info_title{
+	width: 5em; height: 2em; line-height: 2em; left: 0; margin-top: 1em; border-top-left-radius: 4px; border-top-right-radius: 4px; color: #FFFFFF; border: 1px solid #CCCCCC; border-bottom: none;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#4b5cc4), to(#2D4377)) no-repeat;
+	background: -moz-linear-gradient(top, #4b5cc4, #2D4377) no-repeat;
+}
+.eva_name{
+	padding-right: 0.2em;
+}
+.eva_time{
+	float: right;
+}
+.coa_eva_item{
+	padding: 0.3em 0;
+}
+.coach_course_list{
+	width: 80%;
+}
+.coach_course_list tr{
+	height: 2em; 
+}
+.coach_course_item{
+	padding: 2px 4px 0 0; 
+}
+/*预定时间页面*/
+.select_list{
+	width: 100%; 
+}
+.select_list th{
+	padding: 0.3em 0;
+}
+.select_list td{
+	padding: 0.4em 0;
+}
+/*驾校详情页面*/
+.school_img{
+	width: 5em; height: 5em; display: inline-block; float: left; margin: 0.5em;
+}
+.showDetail{
+	border: none; background-color: #FFFFFF; color: #0000CD;
+}
+.shcool_map{
+	width: 90%;
+}
+.eva_grade{
+	padding: 0.5em ;
+}
+.have_select{
+	width: 8em; height: 2em; background: blue; color: #FFFFFF; text-align: center; line-height: 2em; border-radius: 4px;
+}
+/*首页面*/
+.item img{
+	width: 100%; height: 60%;
+}
+.first_search_area{
+	padding: 0.2em;
+}
+.form-control{
+	font-family: "微软雅黑";
+}
+.nav_icon{
+	float: left; margin-right: 0.2em; 
+}
+.class_menu{
+	margin-top: 3em; background-color: #FFFFFF;
+}
+.class_menu_item{
+	display:inline-block; width: 32%;  text-align: center;
+}
+.item_name{
+	font-family: "微软雅黑";
+}
+/*不同方式选择*/
+.rowitem{
+	display: inline-block; width: 29%; padding-bottom: 1em;
+}
+.rowitem .item_name{
+	font-family: "微软雅黑"; margin: 0; padding: 0.5em 0;
+}
+.select_len{
+	width: 100%; height: 2.5em; font-family: "微软雅黑"; border-radius: 4px;
+}
+.text_left{
+	text-align: left;
+}
+.text_right{
+	text-align: right; float: right; margin-right: 5%;
+}
+.distence{
+	font-style: normal; font-size: 12px;
+}
+.school_item_name{
+	display: block; padding-bottom: 0.5em; margin: 0;
+}
+.first_stars_box {
+	display: inline-block;
+}
+.fstars {
+	width: 1.4em; height: 1.4em; background: url(../img/star_24.png) left center no-repeat; overflow: hidden; display: inline-block; margin-right: 1px; margin-right: 0.5em;
+}
+.school_details{
+	font-family: "微软雅黑"; font-size: 12px; padding-top: 0.5em;
+}
+.numofstu{
+	display: inline-block;
+}
+.eva_num{
+	font-style: normal; margin-left: 0.5em; color: blue; text-decoration: none;
+}
+.item_haveline{
+	padding: 1em 0; border-bottom: 1px solid #CCCCCC;
+}
+.select_len_cour{
+	width: 70%; height: 2.5em; font-family: "微软雅黑"; border-radius: 4px; margin-left: 2em;
+}
+.rowitem_cour{
+	width: 100%;
+}
+.rowitem_time{
+	display: inline-block; width: 46%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
